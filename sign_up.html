@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Class Sign Up</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>A-Class</h1>
+        <h2>Sign Up</h2>
+        <h3>Create an A-Class Account</h3>
+    <form action="signup.py" method="">
+        
+
+           <p> <input type="text" placeholder="First name" name="First name" required/>
+            <input type="text" placeholder="Last name" name="Last name" required/> </p>
+
+           <p> <input type="text" placeholder="Username" name="Username" required/></p>
+
+           <p><input type="password" placeholder="Password" name="Password" required/></p>
+
+           <p><input type="tel" placeholder="Phone Number" name="P_number" required/></p>
+
+            <input type="email" name="email" placeholder="Email" style="width: 300px" required> <br><br>
+
+           <label style="padding-left: 5px;"><strong>Date of Birth</strong></label><br>
+            <input type="date" placeholder="Birthday" name="DOB" required/> <br/><br/>
+           
+            <label style="padding-left: 5px;"><strong>Male</strong></label>
+               <input type="radio" name="gender" required>
+            <label style="padding-left: 5px;"><strong>Female</strong></label>
+               <input type="radio" name="gender" required> <br/><br/>
+
+            <input type="checkbox" name="terms" required>
+            <label style="padding-left: 5px;"><strong>I agree to Terms and Privacy Policy.</strong></label> <br/><br/>
+
+            <button type="submit">Sign Up</button> <br/><br/>
+
+            <strong>Already have an account? </strong>
+            <button type="submit" name="login"><a href="index.html">Login</a></button>
+
+
+    </form>
+</body>
+</html>
